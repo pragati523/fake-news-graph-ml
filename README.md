@@ -25,9 +25,9 @@ fake-news-graph-ml/
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb     # EDA, label distribution, word clouds
 │   ├── 02_graph_construction.ipynb   # Build PyG graph, TF-IDF features
-│   ├── 03_gnn_training.ipynb         # Train GCN, GAT, GraphSAGE
-│   └── 04_visualization.ipynb        # t-SNE, ROC, attention heatmaps
-├── data/                             # Created at runtime (gitignored)
+│                                     # Train GCN, GAT, GraphSAGE
+|                                      # t-SNE, ROC, attention heatmaps
+├── data2/                             # Created at runtime (gitignored)
 ├── models/                           # Saved model weights (gitignored)
 └── results/                          # All output plots and metrics
     ├── tsne_embeddings.png
@@ -92,7 +92,7 @@ All models: hidden=128 → 64 → 2, dropout=0.5, Adam optimizer, 100 epochs.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Option 1 — Google Colab (Recommended)
 1. Upload notebooks to [colab.research.google.com](https://colab.research.google.com)
@@ -133,8 +133,9 @@ See `requirements.txt` for full list. Core dependencies:
 
 ## 🏗️ Project by
 
-Your Name | Course: ML on Graphs | Semester: 2025–26
-
+    Pragati Mukayyanamath | Course: ML on Graphs 
+    Palak Vijay 
+    Shreshta Dixit
 ---
 
 ## 📄 References
